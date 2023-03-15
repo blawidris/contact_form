@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <div class="contact-wrapper">
+      <div class="content">
+        <h1 class="title">Contact Us</h1>
+        <p class="caption">
+          Got a question? We'd love to hear from you. Send us a message and
+          we'll respond as soon as possible
+        </p>
+      </div>
+
+      <form action="#" class="form-wrap">
+        <div class="form-group">
+          <label for="help" class="label">What can we help you with?</label>
+          <select name="help" id="help" class="form-control">
+            <option value="">Select what we can help you with</option>
+          </select>
+        </div>
+        <div class="form-group" id="color">
+          <label for="name" class="label">Name</label>
+          <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="form-group" id="color">
+          <label for="email" class="label">Email</label>
+          <input type="email" name="email" id="email" class="form-control border-red">
+        </div>
+        <div class="form-group">
+          <label for="message" class="label">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <button class="btn btn-primary">Send</button>
+      </form>
+    </div> 
+   
+  </body>
+</html>
