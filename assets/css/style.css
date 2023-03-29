@@ -78,3 +78,15 @@ body {
  color: #fff;
 }
 
+
+
+.ans{
+  margin-top: 10px;
+  display: none;
+}
+
+.ans label{
+  font-weight: 400;
+  color:#888;
+}
+
